@@ -1,17 +1,12 @@
 package lab4;
 
-import razd_syst.lab3.Lab3;
+import lab3.Lab3;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.table.JTableHeader;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
 import java.text.NumberFormat;
-import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.

@@ -20,6 +20,7 @@ public class Lab1 {
     double R;
     Double s;
 
+
     public Lab1() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter a");

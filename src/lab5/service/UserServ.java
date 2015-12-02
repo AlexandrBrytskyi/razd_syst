@@ -1,8 +1,9 @@
 package lab5.service;
 
-import razd_syst.lab5.dao.DAO;
-import razd_syst.lab5.dao.MyDao;
-import razd_syst.lab5.model.*;
+
+import lab5.dao.DAO;
+import lab5.dao.MyDao;
+import lab5.model.*;
 
 import java.io.IOException;
 import java.util.ArrayList;

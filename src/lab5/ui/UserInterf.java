@@ -1,8 +1,9 @@
 package lab5.ui;
 
-import razd_syst.lab5.model.*;
-import razd_syst.lab5.service.UserServ;
-import razd_syst.lab5.service.UserService;
+
+import lab5.model.*;
+import lab5.service.UserServ;
+import lab5.service.UserService;
 
 import javax.swing.*;
 import java.awt.*;

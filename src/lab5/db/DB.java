@@ -1,7 +1,7 @@
 package lab5.db;
 
 
-import razd_syst.lab5.model.Igrushka;
+import lab5.model.Igrushka;
 
 import java.io.*;
 import java.util.ArrayList;

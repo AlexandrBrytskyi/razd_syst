@@ -1,6 +1,6 @@
 package lab5.model;
 
-import razd_syst.lab5.service.UserServ;
+import lab5.service.UserServ;
 
 import java.io.IOException;
 

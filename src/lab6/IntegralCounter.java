@@ -18,7 +18,7 @@ public class IntegralCounter {
     int n;
     int kstOfThreads;
     List<double[]> intervals = new ArrayList<>();
-    List<Double> results = Collections.synchronizedList(new LinkedList<>());
+    List<Double> results = Collections.synchronizedList(new LinkedList<Double>());
     List<Thread> threads = new LinkedList<>();
 
     public IntegralCounter(double a, double b, int n, int kstOfThreads) {
