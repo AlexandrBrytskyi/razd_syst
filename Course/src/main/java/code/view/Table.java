@@ -42,6 +42,15 @@ public class Table {
                 }
             }
         });
+        removeSelectedButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                service.removeValuta(selectedValuta);
+                JOptionPane.showMessageDialog(mainPanel,"Видалено!");
+                tableModel.updateList();
+                table.updateUI();
+            }
+        });
         service.registerTable(this);
     }
 
@@ -74,6 +83,7 @@ public class Table {
                 selectedValuta = valutas.get(selectedIndex);
             }
         };
+
 
 
         public int getRowCount() {
@@ -110,6 +120,8 @@ public class Table {
                 this.valutas = service.getAllValutaForDecade(decade);
             }
         }
+
+
 
     }
 
