@@ -1,9 +1,6 @@
 package lab7;
 
-/**
- * User: huyti
- * Date: 19.11.2015
- */
+
 public class Consumer implements Runnable {
 
     private ListController controller;
